@@ -808,7 +808,7 @@ body {
         }
 
         .text_b88801 > strong /* xxx is typing.. */ {
-            color: var(--text-3);
+            color: var(--text-7);
         }
 
         .folder__48112[aria-expanded="false"] > .folderIconWrapper__48112 /* collapsed folders */ {

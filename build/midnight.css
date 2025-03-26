@@ -80,11 +80,10 @@ div[class^="messagesWrapper_"] {
     .container_f369db /* forum */,
     .chat_fb64c9 /* new thread panel */,
     .container_a592e1 /* server discovery */ {
-        display:none;
-       /* background-color: var(--background-base-lower);
+       background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
         border: 1px solid var(--border-subtle);
-        backdrop-filter: var(--panel-backdrop-filter);*/
+        backdrop-filter: var(--panel-backdrop-filter);
     }
 
     .base_c48ade /* base grid */ {

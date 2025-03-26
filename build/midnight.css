@@ -23,9 +23,9 @@ div[class^="channelTextArea_"] {
     --custom-chat-input-margin-bottom: 8px;
 }
 
-/*.buttonSection__1405b.experimentButtonSection__1405b {
+.buttonSection__1405b.experimentButtonSection__1405b {
     background: var(--bg-4);
-}*/
+}
 
 form[class^="form_"] {
   display: flex;

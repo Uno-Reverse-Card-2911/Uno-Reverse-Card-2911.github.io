@@ -283,7 +283,7 @@ body {
     }
 
     .bottom__7aaec /* channel list new unreads pill */ {
-        bottom: 12px;
+        display:none;
     }
 
     .unreadMentionsIndicatorBottom_ef3116 /* server list new pill */,
@@ -723,7 +723,7 @@ body {
 
         --text-brand: var(--accent-1);
         --text-danger: var(--red-1);
-        --text-link: var(--accent-1);
+        --text-link: var(--accent-2);
         --text-link-low-saturation: red;
         --text-low-contrast: var(--text-4);
         --text-message-preview-low-sat: red;
@@ -850,10 +850,10 @@ body {
         .colorPickerSwatch__459fb[style="background-color: rgb(88, 101, 242);"] /* folder color picker swatch */,
         .newBadge__9a337 /* forum post new badge */,
         .mentioned__5126c:before /* mention message left edge */ {
-            background-color: var(--accent-2) !important;
+            background-color: var(--accent-left-edge) !important;
         }
         .replying__5126c:before /* reply message left edge */ {
-            background-color: var(--text-2) !important;
+            background-color: var(--accent-reply-edge) !important;
         }
 
         #app-mount .message__5126c.replying__5126c:hover /* override fix for message reply hover */ {
@@ -1203,7 +1203,8 @@ body {
             position: fixed;
             width: 40px;
             height: 40px;
-            top: calc(var(--custom-app-top-bar-height) + 1000px + var(--custom-guild-list-padding) + 48px);
+            /*top: calc(var(--custom-app-top-bar-height) + 1000px + var(--custom-guild-list-padding) + 48px); */
+            bottom: 12px;
             left: calc(var(--gap) + 1px + var(--custom-guild-list-padding));
         } 
         /* style inbox button */

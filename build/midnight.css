@@ -18,6 +18,28 @@ body {
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
 }
 
+div[class^="channelTextArea_"] {
+    --custom-chat-input-margin-bottom: 8px;
+}
+
+form[class^="form_"] {
+  display: flex;
+  flex-direction: column; 
+}
+
+div[class^="typing_"] {
+  position: relative;
+  bottom: 12px;
+  order:-1;
+  height: 0px;
+}
+
+div[class^="messagesWrapper_"] {
+    margin-bottom:12px;
+}
+:root {
+    --custom-channel-textarea-text-area-height: 46px;
+}
 .visual-refresh {
     /* panel separation */
     .guilds_c48ade /* server list */, 

@@ -702,12 +702,12 @@ body {
         --channel-icon: var(--text-4);
         --channels-default: var(--text-4);
 
-        --header-primary: var(--text-3);
+        --header-primary: var(--text-8);
         --header-secondary: var(--text-4);
         --header-muted: var(--text-4);
 
         --icon-muted: var(--text-5);
-        --icon-primary: var(--text-3);
+        --icon-primary: var(--text-8);
         --icon-secondary: var(--text-4);
         --icon-tertiary: var(--text-4);
 

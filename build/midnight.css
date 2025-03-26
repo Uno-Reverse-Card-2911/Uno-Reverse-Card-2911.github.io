@@ -22,6 +22,10 @@ div[class^="channelTextArea_"] {
     --custom-chat-input-margin-bottom: 8px;
 }
 
+.buttonSection__1405b.experimentButtonSection__1405b {
+    background: var(--bg-4)
+}
+
 form[class^="form_"] {
   display: flex;
   flex-direction: column; 
@@ -136,7 +140,7 @@ div[class^="messagesWrapper_"] {
         top: 0;
         left: 0;
         right: 0;
-        width: auto;
+        width: auto;inv
         border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     }
 
@@ -1264,6 +1268,10 @@ body {
                     color: var(--black);
                 }
             }
+        }
+
+        .colorable_f1ceac.experimentDark_f1ceac, .colorable_f1ceac.experimentDark_f1ceac .centerIcon_f1ceac {
+            color: var(--text-6);
         }
         .recentsIcon_c99c29 .svg__2338f {
             transition: color 0.15s ease-out;

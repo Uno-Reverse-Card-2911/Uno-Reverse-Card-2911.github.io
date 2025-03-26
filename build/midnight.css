@@ -762,8 +762,8 @@ body {
         --background-feedback-warning: color-mix(in hsl, var(--yellow-2), transparent 80%);
 
         --interactive-normal: var(--text-4);
-        --interactive-hover: var(--text-3);
-        --interactive-active: var(--text-3);
+        --interactive-hover: var(--text-8);
+        --interactive-active: var(--text-8);
         --interactive-muted: var(--text-5);
 
         --mention-foreground: var(--accent-1);

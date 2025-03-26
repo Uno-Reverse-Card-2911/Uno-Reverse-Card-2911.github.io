@@ -321,7 +321,7 @@ div[class^="messagesWrapper_"] {
     }
 
     .bottom__7aaec /* channel list new unreads pill */ {
-        display:none;
+        /*display:none;
     }
 
     .unreadMentionsIndicatorBottom_ef3116 /* server list new pill */,
@@ -1031,7 +1031,7 @@ body {
         .iconBadge__9293f /* icon badge */,
         .mentionsBar__7aaec /* new mention pill */,
         .mention__3b95d /* server list new mention pill */ {
-            display:none;
+            /*display:none;
             /* background-color: var(--accent-mention); */
         }
 

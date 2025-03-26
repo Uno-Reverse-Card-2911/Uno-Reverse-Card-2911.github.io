@@ -146,10 +146,7 @@ div[class^="messagesWrapper_"] {
         border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     }
 
-   /* .popout_73 {
-        bottom: 20px;
-        left: 100px;
-    }*/
+
 
     .sidebar_c48ade:after /* server list + channel list bottom shadow */ {
         display: none;

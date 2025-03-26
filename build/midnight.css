@@ -1270,8 +1270,8 @@ body {
         }
         /* shift inbox popup panel into view */
         .recentMentionsPopout__95796 {
-            transform: translateX(100%);
-            transform: translateY(10%)
+            /*transform: translateX(100%);
+            transform: translateY(10%)*/
         }
         /* move top bar title */
         .title_c38106 {

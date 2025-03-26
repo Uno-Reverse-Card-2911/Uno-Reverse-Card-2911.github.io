@@ -1065,7 +1065,7 @@ body {
 
         .circleIconButton__5bc7e /* new server button */ {
             color: var(--text-3);
-            transform: translateY(15%);
+            transform: translateY(0%);
             height: 40px;
         }
     

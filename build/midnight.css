@@ -1240,10 +1240,10 @@ body {
             transition: background-color 0.15s ease-out;
 
             &:hover {
-                background-color: var(--bg-brand);
+                background-color: var(--accent-2);
 
                 .icon__9293f {
-                    color: var(--white);
+                    color: var(--black);
                 }
             }
         }

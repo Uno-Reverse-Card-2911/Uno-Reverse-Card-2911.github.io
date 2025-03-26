@@ -439,8 +439,9 @@ div[class^="messagesWrapper_"] {
     }
 
     .root_7f727 {
-        background-color: var(--bg-3);
+        color: var(--bg-3);
     }
+
 
     /* remove unnecessary backgrounds */
     .app__160d8,

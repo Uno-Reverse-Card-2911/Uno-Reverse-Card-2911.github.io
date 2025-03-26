@@ -1227,7 +1227,7 @@ body {
             width: 40px;
             height: 40px;
             /*top: calc(var(--custom-app-top-bar-height) + 1000px + var(--custom-guild-list-padding) + 48px); */
-            bottom: 12px;
+            bottom: 20px;
             left: calc(var(--gap) + 1px + var(--custom-guild-list-padding));
         } 
         /* style inbox button */

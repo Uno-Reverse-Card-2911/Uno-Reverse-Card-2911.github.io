@@ -51,10 +51,7 @@ div[class^="typingDots_"] {
   left: 0;
 }
 
-div[id^="popout_73"] {
-    bottom: 20px;
-    left: 100px;
-}
+
 
 div[class^="messagesWrapper_"] {
     margin-bottom:12px;
@@ -147,6 +144,11 @@ div[class^="messagesWrapper_"] {
         right: 0;
         width: auto;inv
         border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
+
+    .popout_73 {
+        bottom: 20px;
+        left: 100px;
     }
 
     .sidebar_c48ade:after /* server list + channel list bottom shadow */ {

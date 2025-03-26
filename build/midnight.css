@@ -983,13 +983,13 @@ body {
         }
 
         .divider__5126c /* unread divider */ {
-            --divider-color: var(--accent-new);
+            --divider-color: var(--accent-mention);
         }
 
         .iconBadge__9293f /* icon badge */,
         .mentionsBar__7aaec /* new mention pill */,
         .mention__3b95d /* server list new mention pill */ {
-            background-color: var(--accent-new);
+            background-color: var(--accent-mention);
         }
 
         .newMessagesBar__0f481 /* unread bar */ {
@@ -1196,6 +1196,7 @@ body {
         }
         /* create space for inbox button */
         .tutorialContainer__1f388 {
+            display: none;
             margin-bottom: 0px;
         }
         /* move inbox button */

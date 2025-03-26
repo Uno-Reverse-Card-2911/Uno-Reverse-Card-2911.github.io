@@ -142,14 +142,14 @@ div[class^="messagesWrapper_"] {
         top: 0;
         left: 0;
         right: 0;
-        width: auto;inv
+        width: auto;
         border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     }
 
-    .popout_73 {
+   /* .popout_73 {
         bottom: 20px;
         left: 100px;
-    }
+    }*/
 
     .sidebar_c48ade:after /* server list + channel list bottom shadow */ {
         display: none;

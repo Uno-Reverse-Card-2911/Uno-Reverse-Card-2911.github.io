@@ -24,7 +24,7 @@ div[class^="channelTextArea_"] {
 }
 
 .buttonSection__1405b.experimentButtonSection__1405b {
-    background: var(--bg-4)
+    background: var(--bg-4);
 }
 
 form[class^="form_"] {

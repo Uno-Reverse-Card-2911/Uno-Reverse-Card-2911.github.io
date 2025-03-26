@@ -989,7 +989,7 @@ body {
         .iconBadge__9293f /* icon badge */,
         .mentionsBar__7aaec /* new mention pill */,
         .mention__3b95d /* server list new mention pill */ {
-            background-color: var(--accent-mention);
+            /* background-color: var(--accent-mention); */
         }
 
         .newMessagesBar__0f481 /* unread bar */ {

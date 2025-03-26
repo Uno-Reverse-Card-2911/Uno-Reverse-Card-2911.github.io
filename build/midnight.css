@@ -1196,34 +1196,19 @@ body {
         }
         /* create space for inbox button */
         .tutorialContainer__1f388 {
-            display: none;
             margin-bottom: 0px;
         }
         /* move inbox button */
-        .recentsIcon_c99c29 {
-            display: none;
+        /* .recentsIcon_c99c29 {
             position: fixed;
             width: 40px;
             height: 40px;
             top: calc(var(--custom-app-top-bar-height) + 1px + var(--custom-guild-list-padding) + 48px);
             left: calc(var(--gap) + 1px + var(--custom-guild-list-padding));
-        }
+        } */
         /* style inbox button */
         .recentsIcon_c99c29 .button__85643 {
             display:none;
-            width: 100%;
-            height: 100%;
-            background-color: var(--background-surface-higher);
-            border-radius: var(--radius-md);
-            transition: background-color 0.15s ease-out;
-
-            &:hover {
-                background-color: var(--bg-brand);
-
-                .icon__9293f {
-                    color: var(--white);
-                }
-            }
         }
         .recentsIcon_c99c29 .svg__2338f {
             transition: color 0.15s ease-out;

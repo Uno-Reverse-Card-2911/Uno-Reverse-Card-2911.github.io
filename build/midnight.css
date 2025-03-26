@@ -1070,6 +1070,7 @@ body {
         }
     
         .circleIconButton__5bc7e:hover {
+            transform: translateY(0%);
             color: var(--bg-4);
         }
 

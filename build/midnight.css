@@ -1208,7 +1208,20 @@ body {
         } 
         /* style inbox button */
         .recentsIcon_c99c29 .button__85643 {
-            display:none;
+            /*display:none;*/
+            width: 100%;
+            height: 100%;
+            background-color: var(--background-surface-higher);
+            border-radius: var(--radius-md);
+            transition: background-color 0.15s ease-out;
+
+            &:hover {
+                background-color: var(--bg-brand);
+
+                .icon__9293f {
+                    color: var(--white);
+                }
+            }
         }
         .recentsIcon_c99c29 .svg__2338f {
             transition: color 0.15s ease-out;
